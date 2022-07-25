@@ -14,9 +14,9 @@
   </head>
   <body>
     <header class="container">
-      <nav class="navbar navbar-expand-lg bg-light">
+      <nav class="navbar navbar-expand-lg bg-light fixed-top">
         <div class="container">
-          <a class="navbar-brand" href="#"
+          <a class="navbar-brand" href="index.html"
             ><img src="./images/logo.png" alt=""
           /></a>
           <button
@@ -33,16 +33,18 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Shoe</a>
+                <a class="nav-link" href="#shoes">Shoe</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Backpack</a>
+                <a class="nav-link" href="#backpack">Backpack</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Subscribe</a>
+                <a class="nav-link" href="#subscribe">Subscribe</a>
               </li>
             </ul>
           </div>
@@ -195,7 +197,7 @@
       <!-- categories End -->
 
       <!-- Shoes Card Start -->
-      <section class="container my-5">
+      <section id="shoes" class="container my-5">
         <h1 class="text-center 3t-5">Shoes</h1>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col">
@@ -262,7 +264,7 @@
       <!-- Shoes Card End -->
       <!-- Bag Card Start -->
 
-      <section class="container my-5">
+      <section id="backpack" class="container my-5">
         <h1 class="text-center">BackPacks</h1>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col">
@@ -330,6 +332,7 @@
 
       <!-- Subscribe section Start -->
       <secton
+        id="subscribe"
         style="height: 350px"
         class="banner-bg container rounded-1 d-flex justify-content-center align-items-center"
       >
